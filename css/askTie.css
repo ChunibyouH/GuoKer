@@ -1,0 +1,212 @@
+a{
+	text-decoration: none;
+}
+a:hover{
+	text-decoration: underline;
+}
+.txtColor-GKgreen{
+	color: #4BA733!important;
+	font-weight: 700;
+}
+.txtColor-GKgreen:hover{
+	background: none!important;
+	color: none!important;
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Microsoft YaHei","WenQuanYi Micro Hei",SimHei,tahoma,sans-serif;
+	font-weight: normal;
+}
+
+/**************************/
+.sub-nav-con{
+	border-bottom: 1px solid #EDEDED;
+	vertical-align: middle;
+	padding: 18px 0 22px 0;
+}
+.sub-nav-con nav{
+	width: 1000px;
+	margin: 0 auto;
+}
+.nva-logo a{
+	width: 110px;
+}
+.nva-logo i{
+	display: inline-block;
+	width: 49px;
+    height: 30px;
+    background: url(../img/logo.png) no-repeat;
+    background-size: 101px 30px;
+    background-position: 0 0;
+}
+.nva-logo a span{
+	display: inline-block;;
+	font-size: 26px!important;
+	vertical-align: top;
+}
+.nav-list{
+	margin-left: 20px;
+}
+.nav-list li{
+	margin-right: 20px;
+}
+.nav-list a{
+	display: block;
+	font-size: 14px;
+	color: #666;
+	height: 30px;
+	line-height: 30px;
+	padding: 0 13px;
+}
+.nav-list a:hover{
+	background: #85C155;
+    color: #FFF;
+}
+
+.nav-btn a{
+	display: inline-block;
+	color: white!important;
+	background: rgb(136, 201, 50);
+	padding: 5px 10px;
+	margin-left: 10px;
+	font-size: 14px;
+}
+.nav-btn a:hover{
+	background: #43BC50;
+}
+
+
+/**************************/
+.main{
+	width: 1000px;
+	margin: 0 auto;
+	border: 1px solid;
+	margin-top: 20px;
+}
+
+
+
+/********************************/
+.main-left{
+	width: 650px;
+}
+.askTile-ask{
+	color: #333333;
+	font-size: 12px;
+	border-bottom: 1px dashed #CCCCCC;
+}
+.askTile-ask a{
+	color: #0078b6;
+}
+.askTile-ask h3{
+	font-size: 20px!important;
+	font-weight: normal;
+}
+.askTie-lable{
+	font-size: 14px;
+	margin: 10px 0;
+}
+.askTie-lable-a{
+	display: inline-block;	
+	border: 1px solid #E0E0E0;
+	padding: 3px 8px;
+}
+.askTie-lable-revise{
+	color: #333!important;
+}
+
+.ask-content p{
+	margin: 30px 0;
+}
+
+
+/********分享到**********/
+.ask-fx{
+	margin: 20px 0;
+}
+.askTie-share{
+	font-size: 12px;
+	vertical-align: middle;
+}
+.askTie-share span{
+	float: left;
+    margin-top: 6px;
+    margin-right: 10px;
+}
+.askTie-share a{
+	display: inline-block;
+	width: 25px;
+    height: 25px;
+    background:url(../img/2icon.png) no-repeat;
+}
+.askTie-share-douban{
+	background-position: 0 -496px!important;
+}
+.askTie-share-weibo{
+	background-position: -50px -496px!important;
+}
+.askTie-share-qqkj{
+	background-position: -75px -496px!important;
+}
+.askTie-share-weixin{
+	background-position: -50px -471px!important;
+}
+.askTie-share-txweibo{
+	background-position: -100px -496px!important;
+}
+/******************/
+
+/********推荐收藏关注**********/
+.ask-tcg{
+	font-size: 12px;
+	color: #666666;
+}
+.ask-tcg a{
+	color: #0078b6;
+	margin: 0 5px;
+}
+.ask-tcg span{
+	margin: 0 5px;
+}
+.ask-tcg-g{
+	display: inline-block;
+	background: #88C932;
+	padding:5px 15px;
+	color: white!important;
+}
+/******************/
+
+/*******回答***********/
+.ask-answer{
+	font-size: 12px;
+	margin: 20px 0;
+}
+.answer-sum{
+	color: #1E8A26;
+	padding: 10px 0;
+	border-bottom: 1px solid #E0E0E0;
+}
+.answer{
+	margin: 20px 0;
+}
+.answer-ud a{
+	display: block;
+	width: 23px;
+    height: 30px;
+    border:1px solid #CCCCCC;
+    text-align: right;
+    padding-right: 3px;
+    color: #999;
+}
+.answer-ud-up{
+	background: url(../icon/up1.PNG) no-repeat;
+	background-position: bottom left;
+}
+.answer-ud-down{
+	background: url(../icon/up1.PNG) no-repeat;
+	background-position: top left;
+}
+
+
+.answer-main{
+	width: 606px;
+}

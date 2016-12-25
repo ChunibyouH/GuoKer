@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>注册</title>
+		<script type="text/javascript" src="js/jquery-3.1.1.js" ></script>
+		<link rel="stylesheet" href="css/register.css" />
+		
+	</head>
+	<body>
+				<div class="container">
+			<div class="topbg"></div>
+			<div class="gheader-w">
+				<div class="gheader">
+					<a id="glogo" href="#">
+						<img src="img/logo.png">
+					</a>
+					<img id="gmoto" src="img/motto.png" />
+				</div>
+			</div>
+			
+			<div class="reg-main">
+				<div class="reg-main-dsf">
+					<div class="dsf-title">你还可以用第三方账号登录</div>
+					<a href="" class="reg-weixin"><b></b><span>微信账号登录</span></a>
+					<a href="" class="reg-weibo"><b></b><span>新良微博账号</span></a>
+					<a href="" class="reg-QQ"><b></b><span>QQ账号登录</span></a>
+					<a href="" class="reg-douban"><b></b><span>豆瓣账号登录</span></a>
+					<div class="link-reg">还没有账号?<a href="#"> 马上注册</a></div>
+				</div>
+				<script>
+					$(function(){
+						
+						//注册电话验证
+						function ckPhone(){
+							var phone=$(".reg-phone input").val();
+							var p=/^1[34578]\d{9}$/;
+//							phone=phone.replace(/\s+/g,"");
+							if(phone.length==0){
+								$(".reg-phone span").text("请输入手机号码").css("color","red");
+								return false;
+							}
+							if(p.test(phone)){
+								$(".reg-phone span").text("OK").css("color","green");
+								return true;
+							}else{
+								$(".reg-phone span").text("请输入正确的手机号码").css("color","red");
+								return false;
+							}
+						}
+						//验证码
+						function ckYzm(){
+							var yzm=$(".reg-yzm input").val();
+							yzm=yzm.replace(/\s+/g,"");
+							if(phone.length==0){
+								$(".reg-yzm span").text("请输入验证码").css("color","red");
+								return false;
+							}
+							return true;
+						}
+						//短信
+						function ckSms(){
+							var yzm=$(".reg-sms input").val();
+							yzm=yzm.replace(/\s+/g,"");
+							if(phone.length==0){
+								$(".reg-sms span").text("请输入短信验证码").css("color","red");
+								return false;
+							}
+							return true;
+						}
+						
+						$(".reg-btn input").mouseenter(function(){
+							if(ckPhone()==true&&ckYzm()==true&&ckSms()==true){
+//								$("#reg").submit(function(){
+//									return true;
+//								});
+//							}else{
+//								$("#reg").submit(function(){
+//									return false;
+//								});
+							}
+						});
+						
+						
+						
+						
+					});
+				</script>
+				<div class="reg-main-reg">
+					<h2>欢迎加入果壳</h2>
+					<form id="reg" action="#" method="post">
+						<p class="reg-phone">
+							<input type="text" name="phone" placeholder="手机号" required="true" />
+							<span></span>
+						</p>
+						<p class="reg-yzm">
+							<input type="text" name="yzm" placeholder="请填写右侧字符" required="true" />
+							<img src="img/saved_resource.png" />
+							<a href="#"></a>
+							<span></span>
+						</p>
+						<p class="reg-sms">
+							<input type="text" name="sms_yzm" placeholder="请填写手机验证码" required="true"/>
+							<a>发送验证码</a>
+							<span></span>
+						</p>
+						<p class="reg-btn">
+							<input type="submit" value="注册" />
+						</p>
+					</form>
+				</div>
+			</div>
+			
+			<iframe src="bottom.html" height="160px" width="100%" frameborder="0"></iframe>
+			
+		</div>
+	</body>
+</html>

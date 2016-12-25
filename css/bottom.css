@@ -1,0 +1,38 @@
+
+a{
+	text-decoration: none;
+}
+
+.gbottom a:hover{
+	text-decoration: underline;
+}
+.gbottom{
+	margin: 30px auto 0;
+	width: 1000px;
+	line-height: 35px;
+	text-align: center;
+}
+.gbottom_nav{
+	width: 1000px;
+	font-size: 12px;
+	color: #999;
+}
+.gbottom_nav a{
+	color: #0078b6;
+	text-decoration: none;
+	margin: 0 10px;
+}
+
+.gbottom_txt{
+	border-top: 1px solid #ececec;
+	color: #999;
+	font-size: 12px;
+}
+.gbottom_txt a{
+	color: #999;
+}
+.gbottom_txt p a img{
+	vertical-align: text-top; 
+	width: 13px; 
+	height: 13px;
+}

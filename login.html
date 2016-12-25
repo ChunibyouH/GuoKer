@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>登录</title>
+		<link rel="stylesheet" type="text/css" href="css/login.css"/>
+	</head>
+	<body>
+		<div class="container">
+			<div class="topbg"></div>
+			<div class="gheader-w">
+				<div class="gheader">
+					<a id="glogo" href="#">
+						<img src="img/logo.png">
+					</a>
+					<img id="gmoto" src="img/motto.png" />
+				</div>
+			</div>
+			
+			<div class="lg-main">
+				<div class="lg-main-dsf">
+					<div class="dsf-title">你还可以用第三方账号登录</div>
+					<a href="" class="lg-weixin"><b></b><span>微信账号登录</span></a>
+					<a href="" class="lg-weibo"><b></b><span>新良微博账号</span></a>
+					<a href="" class="lg-QQ"><b></b><span>QQ账号登录</span></a>
+					<a href="" class="lg-douban"><b></b><span>豆瓣账号登录</span></a>
+					<div class="link-reg">还没有账号?<a href="#"> 马上注册</a></div>
+				</div>
+				<div class="lg-main-lg">
+					<h1>欢迎登录果壳</h1>
+					<form action="#" method="post">
+						<p class="lg-uid">
+							<input class="user" type="text" name="username" required="true" placeholder="邮箱或者手机号"/>
+							<span class="tip"></span>	
+						</p>
+						<p class="lg-pwd">
+							<input class="user" type="text" name="userpwd" required="true" placeholder="密码"/>
+							<span class="tip"></span>
+						</p>
+						<p class="lg-yzm">
+							<input class="lgyzm" type="text" name="yzm" required="true" placeholder="验证码"/>
+							<img class="lg_yzm" src="img/saved_resource.png" />
+							<a href="#" class="yzm_re"></a>
+						</p>
+						<p class="lg-ck">
+							<input type="checkbox" name="ckbox"/>
+							<span class="ck-tip">记住我(网吧或别人的电脑请不要勾选)</span>
+						</p>
+						<p class="lg-btn">
+							<input type="submit" value="登录" />
+							<a href="#">忘记密码?</a>
+						</p>
+					</form>
+				</div>
+			</div>
+			
+			<iframe src="bottom.html" height="160px" width="100%" frameborder="0"></iframe>
+			
+		</div>
+	</body>
+</html>
